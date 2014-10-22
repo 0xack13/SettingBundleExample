@@ -22,6 +22,7 @@
 		4CC903A319F85DA300DF176E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC9038219F85DA300DF176E /* UIKit.framework */; };
 		4CC903AB19F85DA300DF176E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CC903A919F85DA300DF176E /* InfoPlist.strings */; };
 		4CC903AD19F85DA300DF176E /* SettingBundleExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC903AC19F85DA300DF176E /* SettingBundleExampleTests.m */; };
+		4CC903B719F85E0E00DF176E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4CC903B619F85E0E00DF176E /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		4CC903A819F85DA300DF176E /* SettingBundleExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SettingBundleExampleTests-Info.plist"; sourceTree = "<group>"; };
 		4CC903AA19F85DA300DF176E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CC903AC19F85DA300DF176E /* SettingBundleExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingBundleExampleTests.m; sourceTree = "<group>"; };
+		4CC903B619F85E0E00DF176E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		4CC9037219F85DA300DF176E = {
 			isa = PBXGroup;
 			children = (
+				4CC903B619F85E0E00DF176E /* Settings.bundle */,
 				4CC9038419F85DA300DF176E /* SettingBundleExample */,
 				4CC903A619F85DA300DF176E /* SettingBundleExampleTests */,
 				4CC9037D19F85DA300DF176E /* Frameworks */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC903B719F85E0E00DF176E /* Settings.bundle in Resources */,
 				4CC9039A19F85DA300DF176E /* Images.xcassets in Resources */,
 				4CC9038919F85DA300DF176E /* InfoPlist.strings in Resources */,
 				4CC9039219F85DA300DF176E /* Main.storyboard in Resources */,
