@@ -5,10 +5,14 @@
 	<key>PreferenceSpecifiers</key>
 	<array>
 		<dict>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Key</key>
+			<string>colorId</string>
 			<key>Title</key>
-			<string>Group</string>
+			<string>Background color</string>
 			<key>Type</key>
-			<string>PSGroupSpecifier</string>
+			<string>PSToggleSwitchSpecifier</string>
 		</dict>
 	</array>
 	<key>StringsTable</key>
